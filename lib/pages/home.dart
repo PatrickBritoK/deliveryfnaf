@@ -73,6 +73,7 @@ class HomePage extends StatelessWidget {
                 child: TextButton(
                   style: OutlinedButton.styleFrom(
                     backgroundColor: Colors.deepPurple,
+                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25))
                   ),
                   onPressed: () {
                     Navigator.push(context,

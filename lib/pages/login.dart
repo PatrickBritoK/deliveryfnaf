@@ -1,4 +1,5 @@
 import 'package:deliveryfnaf/pages/home.dart';
+import 'package:deliveryfnaf/pages/inicio.dart';
 import 'package:flutter/material.dart';
 
 class HomeLogin extends StatelessWidget {
@@ -93,6 +94,10 @@ class HomeLogin extends StatelessWidget {
                                   backgroundColor:
                                       const Color.fromARGB(255, 22, 100, 52)),
                               onPressed: () {
+                                Navigator.push(context,
+                                    MaterialPageRoute(builder: (context) {
+                                  return const HomeInicio();
+                                }));
                               },
                               child: const Text(
                                 'Entrar',
@@ -243,7 +248,10 @@ class HomeLogin extends StatelessWidget {
                                   backgroundColor:
                                       const Color.fromARGB(255, 22, 100, 52)),
                               onPressed: () {
-                                // Lógica de login aqui
+                                Navigator.push(context,
+                                    MaterialPageRoute(builder: (context) {
+                                  return const HomeInicio();
+                                }));
                               },
                               child: const Text(
                                 'Cadastrar',
