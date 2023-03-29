@@ -1,3 +1,5 @@
+import 'package:deliveryfnaf/pages/home.dart';
+import 'package:deliveryfnaf/pages/inicio.dart';
 import 'package:flutter/material.dart';
 
 class HomeLogin extends StatelessWidget {
@@ -16,13 +18,12 @@ class HomeLogin extends StatelessWidget {
                 height: MediaQuery.of(context).size.height,
                 child: SingleChildScrollView(
                   child: Card(
-                    shape:const RoundedRectangleBorder(
+                    shape: const RoundedRectangleBorder(
                       borderRadius: BorderRadius.only(
-                        bottomRight: Radius.circular(20),
-                        topLeft: Radius.circular(20),
-                        bottomLeft: Radius.circular(5),
-                        topRight: Radius.circular(5)
-                      ),
+                          bottomRight: Radius.circular(20),
+                          topLeft: Radius.circular(20),
+                          bottomLeft: Radius.circular(5),
+                          topRight: Radius.circular(5)),
                     ),
                     margin:
                         const EdgeInsets.only(top: 100, left: 20, right: 20),
@@ -32,15 +33,27 @@ class HomeLogin extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
+                          Row(
+                            children: [
+                              InkWell(
+                                onTap: () {
+                                  Navigator.push(context,
+                                      MaterialPageRoute(builder: (context) {
+                                    return const HomePage();
+                                  }));
+                                },
+                                child: const Icon(Icons.arrow_back, size: 30),
+                              ),
+                            ],
+                          ),
                           const Padding(
                             padding: EdgeInsets.only(bottom: 120),
                             child: Text(
                               'Acessar',
                               style: TextStyle(
-                                fontSize: 30,
-                                fontWeight: FontWeight.w900,
-                                color: Colors.white
-                              ),
+                                  fontSize: 30,
+                                  fontWeight: FontWeight.w900,
+                                  color: Colors.white),
                             ),
                           ),
                           TextFormField(
@@ -98,17 +111,15 @@ class HomeLogin extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                
                 height: MediaQuery.of(context).size.height,
                 child: SingleChildScrollView(
                   child: Card(
-                    shape:const RoundedRectangleBorder(
+                    shape: const RoundedRectangleBorder(
                       borderRadius: BorderRadius.only(
-                        bottomRight: Radius.circular(5),
-                        topLeft: Radius.circular(5),
-                        bottomLeft: Radius.circular(20),
-                        topRight: Radius.circular(20)
-                      ),
+                          bottomRight: Radius.circular(5),
+                          topLeft: Radius.circular(5),
+                          bottomLeft: Radius.circular(20),
+                          topRight: Radius.circular(20)),
                     ),
                     margin:
                         const EdgeInsets.only(top: 100, left: 20, right: 20),
@@ -118,15 +129,27 @@ class HomeLogin extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
+                          Row(
+                            children: [
+                              InkWell(
+                                onTap: () {
+                                  Navigator.push(context,
+                                      MaterialPageRoute(builder: (context) {
+                                    return const HomePage();
+                                  }));
+                                },
+                                child: const Icon(Icons.arrow_back, size: 30),
+                              ),
+                            ],
+                          ),
                           const Padding(
                             padding: EdgeInsets.only(bottom: 100),
                             child: Text(
                               'Cadastrar',
                               style: TextStyle(
-                                fontSize: 30,
-                                fontWeight: FontWeight.w900,
-                                color: Colors.white
-                              ),
+                                  fontSize: 30,
+                                  fontWeight: FontWeight.w900,
+                                  color: Colors.white),
                             ),
                           ),
                           Row(
@@ -231,7 +254,7 @@ class HomeLogin extends StatelessWidget {
                               ),
                             ),
                           ),
-                          const SizedBox(height: 100),
+                          const SizedBox(height: 20),
                         ],
                       ),
                     ),
