@@ -1,5 +1,4 @@
 import 'package:deliveryfnaf/pages/home.dart';
-import 'package:deliveryfnaf/pages/inicio.dart';
 import 'package:flutter/material.dart';
 
 class HomeLogin extends StatelessWidget {
@@ -94,7 +93,6 @@ class HomeLogin extends StatelessWidget {
                                   backgroundColor:
                                       const Color.fromARGB(255, 22, 100, 52)),
                               onPressed: () {
-                                // Lógica de login aqui
                               },
                               child: const Text(
                                 'Entrar',
@@ -225,7 +223,7 @@ class HomeLogin extends StatelessWidget {
                           TextFormField(
                             keyboardType: TextInputType.emailAddress,
                             decoration: const InputDecoration(
-                              labelText: 'Senha*',
+                              labelText: 'Senha *',
                               labelStyle: TextStyle(
                                 color: Colors.grey,
                               ),
