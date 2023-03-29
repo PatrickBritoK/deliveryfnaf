@@ -65,10 +65,13 @@ class HomeLogin extends StatelessWidget {
                               ),
                               border: OutlineInputBorder(),
                               enabledBorder: OutlineInputBorder(
-                                  borderSide: BorderSide(
-                                      color: Color.fromARGB(255, 0, 0, 0)),
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(20))),
+                                borderSide: BorderSide(
+                                  color: Color.fromARGB(255, 0, 0, 0),
+                                ),
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(20),
+                                ),
+                              ),
                             ),
                           ),
                           const SizedBox(height: 16.0),
@@ -81,10 +84,13 @@ class HomeLogin extends StatelessWidget {
                               ),
                               border: OutlineInputBorder(),
                               enabledBorder: OutlineInputBorder(
-                                  borderSide: BorderSide(
-                                      color: Color.fromARGB(255, 0, 0, 0)),
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(20))),
+                                borderSide: BorderSide(
+                                  color: Color.fromARGB(255, 0, 0, 0),
+                                ),
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(20),
+                                ),
+                              ),
                             ),
                           ),
                           const SizedBox(height: 60),
@@ -93,10 +99,13 @@ class HomeLogin extends StatelessWidget {
                             height: 40,
                             child: ElevatedButton(
                               style: OutlinedButton.styleFrom(
-                                  shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(20)),
-                                  backgroundColor:
-                                      const Color.fromARGB(255, 22, 100, 52)),
+                                elevation: 10,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20),
+                                ),
+                                backgroundColor:
+                                    const Color.fromARGB(255, 22, 100, 52),
+                              ),
                               onPressed: () {
                                 Navigator.push(context,
                                     MaterialPageRoute(builder: (context) {
@@ -190,11 +199,13 @@ class HomeLogin extends StatelessWidget {
                                     ),
                                     border: OutlineInputBorder(),
                                     enabledBorder: OutlineInputBorder(
-                                        borderSide: BorderSide(
-                                          color: Color.fromARGB(255, 0, 0, 0),
-                                        ),
-                                        borderRadius: BorderRadius.all(
-                                            Radius.circular(20))),
+                                      borderSide: BorderSide(
+                                        color: Color.fromARGB(255, 0, 0, 0),
+                                      ),
+                                      borderRadius: BorderRadius.all(
+                                        Radius.circular(20),
+                                      ),
+                                    ),
                                   ),
                                 ),
                               ),
@@ -210,10 +221,13 @@ class HomeLogin extends StatelessWidget {
                               ),
                               border: OutlineInputBorder(),
                               enabledBorder: OutlineInputBorder(
-                                  borderSide: BorderSide(
-                                      color: Color.fromARGB(255, 0, 0, 0)),
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(20))),
+                                borderSide: BorderSide(
+                                  color: Color.fromARGB(255, 0, 0, 0),
+                                ),
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(20),
+                                ),
+                              ),
                             ),
                           ),
                           const SizedBox(height: 16.0),
@@ -226,10 +240,13 @@ class HomeLogin extends StatelessWidget {
                               ),
                               border: OutlineInputBorder(),
                               enabledBorder: OutlineInputBorder(
-                                  borderSide: BorderSide(
-                                      color: Color.fromARGB(255, 0, 0, 0)),
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(20))),
+                                borderSide: BorderSide(
+                                  color: Color.fromARGB(255, 0, 0, 0),
+                                ),
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(20),
+                                ),
+                              ),
                             ),
                           ),
                           const SizedBox(height: 16.0),
@@ -242,10 +259,13 @@ class HomeLogin extends StatelessWidget {
                               ),
                               border: OutlineInputBorder(),
                               enabledBorder: OutlineInputBorder(
-                                  borderSide: BorderSide(
-                                      color: Color.fromARGB(255, 0, 0, 0)),
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(20))),
+                                borderSide: BorderSide(
+                                  color: Color.fromARGB(255, 0, 0, 0),
+                                ),
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(20),
+                                ),
+                              ),
                             ),
                           ),
                           const SizedBox(height: 60),
@@ -254,10 +274,13 @@ class HomeLogin extends StatelessWidget {
                             height: 40,
                             child: ElevatedButton(
                               style: OutlinedButton.styleFrom(
-                                  shape: RoundedRectangleBorder(
-                                      borderRadius: BorderRadius.circular(20)),
-                                  backgroundColor:
-                                      const Color.fromARGB(255, 22, 100, 52)),
+                                elevation: 10,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(20),
+                                ),
+                                backgroundColor:
+                                    const Color.fromARGB(255, 22, 100, 52),
+                              ),
                               onPressed: () {
                                 Navigator.push(context,
                                     MaterialPageRoute(builder: (context) {
